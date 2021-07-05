@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+import anime_quotes
+
+anime_quotes.say_something()
