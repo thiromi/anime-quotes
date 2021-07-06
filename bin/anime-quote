@@ -1,5 +1,6 @@
 #!/usr/bin/env python
+#example: 'https://animechan.vercel.app/api/ quotes/anime?title=naruto'
 
-import anime_quotes
+from anime_quotes import fetch_quote
 
-anime_quotes.say_something()
+print(fetch_quote.get_quote('https://animechan.vercel.app/api', 'quotes/anime', 'title=naruto'))

@@ -1,3 +1,1 @@
-
-def say_something():
-    print('hi!')
+# API endpoint: https://animechan.vercel.app/api/random
